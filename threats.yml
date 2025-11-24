@@ -1148,8 +1148,6 @@ objects:
     name: Input Type Confusion
     description: Application fails to validate data types leading to unexpected behavior or crashes
     annotation: Enforce strict type checking, implement schema validation, handle type errors gracefully
-
-  # Backup-Related Threats
   - urn: urn:intuitem:risk:threat:ble-threats:t208
     ref_id: T208
     name: Backup Strategy Absence
@@ -1185,8 +1183,6 @@ objects:
     name: Incomplete Backup Coverage
     description: Critical systems or data not included in backup scope leading to gaps in recovery
     annotation: Comprehensive backup assessment, document all critical assets, regular coverage reviews
-
-  # API Key and Secret Management Threats
   - urn: urn:intuitem:risk:threat:ble-threats:t215
     ref_id: T215
     name: API Key Hardcoding
@@ -1222,8 +1218,6 @@ objects:
     name: Unmonitored API Key Usage
     description: Lack of monitoring on API key usage preventing detection of abuse or compromise
     annotation: Implement usage analytics, anomaly detection, rate limiting per key
-
-  # Audit Trail and Logging Threats
   - urn: urn:intuitem:risk:threat:ble-threats:t222
     ref_id: T222
     name: Audit Trail Absence
@@ -1264,8 +1258,6 @@ objects:
     name: Privileged Action Audit Bypass
     description: Administrative or privileged actions not captured in audit trails
     annotation: Mandatory logging for all privileged actions, no audit bypass capabilities
-
-  # Code Review and Development Security Threats
   - urn: urn:intuitem:risk:threat:ble-threats:t230
     ref_id: T230
     name: Inadequate Code Review Process
@@ -1301,8 +1293,6 @@ objects:
     name: Production Code Divergence
     description: Production code differs from reviewed version due to unauthorized changes
     annotation: Implement deployment controls, code signing, production integrity monitoring
-
-  # Business Continuity Planning Threats
   - urn: urn:intuitem:risk:threat:ble-threats:t237
     ref_id: T237
     name: Business Continuity Plan Absence
@@ -1343,8 +1333,6 @@ objects:
     name: Supply Chain Continuity Gap
     description: Supplier disruptions not addressed in continuity planning causing operational impact
     annotation: Assess supplier risks, maintain alternate suppliers, include in BCP scope
-
-  # Governance Threats
   - urn: urn:intuitem:risk:threat:ble-threats:t245
     ref_id: T245
     name: Governance Framework Absence
@@ -1390,8 +1378,6 @@ objects:
     name: Third-Party Governance Gap
     description: Inadequate governance over third-party relationships exposing organization to risk
     annotation: Vendor governance program, regular assessments, contractual security requirements
-
-  # SaaS-Specific Threats
   - urn: urn:intuitem:risk:threat:ble-threats:t254
     ref_id: T254
     name: Multi-Tenancy Data Leakage
@@ -1452,8 +1438,6 @@ objects:
     name: SaaS Metadata Exposure
     description: Sensitive metadata about customers or usage patterns exposed through APIs
     annotation: Implement data classification, API response filtering, minimal metadata exposure
-
-  # ISMS (Information Security Management System) Threats
   - urn: urn:intuitem:risk:threat:ble-threats:t266
     ref_id: T266
     name: ISMS Scope Inadequacy
@@ -1519,8 +1503,6 @@ objects:
     name: ISMS Integration Failure
     description: ISMS operates in isolation from other management systems
     annotation: Integrate with quality/risk management, aligned processes, unified governance
-
-  # Additional SaaS Security Threats
   - urn: urn:intuitem:risk:threat:ble-threats:t279
     ref_id: T279
     name: SaaS Data Residency Violation
@@ -1556,8 +1538,6 @@ objects:
     name: SaaS Service Mesh Vulnerability
     description: Security weaknesses in service mesh allowing lateral movement between microservices
     annotation: Implement zero-trust service mesh, mTLS, service authentication
-
-  # Additional ISMS and Compliance Threats
   - urn: urn:intuitem:risk:threat:ble-threats:t286
     ref_id: T286
     name: Asset Inventory Incompleteness
@@ -1608,8 +1588,6 @@ objects:
     name: Control Effectiveness Measurement Gap
     description: Controls implemented but effectiveness not measured or verified
     annotation: Define effectiveness criteria, regular testing, performance indicators
-
-  # Advanced Governance and Operational Threats
   - urn: urn:intuitem:risk:threat:ble-threats:t296
     ref_id: T296
     name: Security Budget Inadequacy
