@@ -12,7 +12,7 @@ packager: intuitem
 objects:
   threats:
   - urn: urn:intuitem:risk:threat:ble-threats:t001
-    ref_id: T001
+    ref_id: BLE-T001
     name: Unauthorized Access
     description: Unauthorized individuals gain access to systems, applications, or
       data through compromised credentials, weak authentication, or access control
@@ -20,1596 +20,1596 @@ objects:
     annotation: Implement MFA, PAM solutions, regular access reviews, and principle
       of least privilege. Monitor for anomalous access patterns
   - urn: urn:intuitem:risk:threat:ble-threats:t002
-    ref_id: T002
+    ref_id: BLE-T002
     name: Privilege Escalation
     description: Attackers exploit vulnerabilities to gain higher-level permissions
       than authorized, potentially achieving administrative access
     annotation: Deploy privilege access management, implement JIT/JEA access, regular
       privilege audits, and separation of duties
   - urn: urn:intuitem:risk:threat:ble-threats:t003
-    ref_id: T003
+    ref_id: BLE-T003
     name: Identity Spoofing
     description: Attackers impersonate legitimate users or systems to gain unauthorized
       access or conduct malicious activities
     annotation: Implement strong identity verification, certificate-based authentication,
       and behavioral analytics
   - urn: urn:intuitem:risk:threat:ble-threats:t004
-    ref_id: T004
+    ref_id: BLE-T004
     name: Password Attack
     description: Brute force, dictionary attacks, or password spraying attempts to
       compromise user credentials
     annotation: Enforce strong password policies, implement account lockout mechanisms,
       deploy password managers
   - urn: urn:intuitem:risk:threat:ble-threats:t005
-    ref_id: T005
+    ref_id: BLE-T005
     name: Session Hijacking
     description: Exploitation of valid computer session to gain unauthorized access
       to information or services
     annotation: Implement secure session management, timeout policies, and encrypted
       session tokens
   - urn: urn:intuitem:risk:threat:ble-threats:t006
-    ref_id: T006
+    ref_id: BLE-T006
     name: Weak Encryption
     description: Use of outdated or weak cryptographic algorithms that can be broken
       by attackers
     annotation: Implement strong encryption standards (AES-256), regular crypto-agility
       assessments, and key rotation
   - urn: urn:intuitem:risk:threat:ble-threats:t007
-    ref_id: T007
+    ref_id: BLE-T007
     name: Key Management Failure
     description: Improper generation, storage, distribution, or destruction of cryptographic
       keys leading to compromise
     annotation: Deploy HSM/KMS solutions, implement key lifecycle management, and
       secure key storage
   - urn: urn:intuitem:risk:threat:ble-threats:t008
-    ref_id: T008
+    ref_id: BLE-T008
     name: Certificate Compromise
     description: Digital certificates are stolen, forged, or misused allowing man-in-the-middle
       attacks
     annotation: Implement certificate pinning, regular certificate audits, and automated
       certificate management
   - urn: urn:intuitem:risk:threat:ble-threats:t009
-    ref_id: T009
+    ref_id: BLE-T009
     name: Physical Intrusion
     description: Unauthorized physical access to facilities, data centers, or equipment
     annotation: Implement access controls, surveillance systems, security guards,
       and environmental monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t010
-    ref_id: T010
+    ref_id: BLE-T010
     name: Device Theft
     description: Physical theft of laptops, mobile devices, or removable media containing
       sensitive data
     annotation: Deploy device encryption, remote wipe capabilities, and asset tracking
       systems
   - urn: urn:intuitem:risk:threat:ble-threats:t011
-    ref_id: T011
+    ref_id: BLE-T011
     name: Environmental Threat
     description: Natural disasters, fires, floods, or environmental conditions threatening
       physical infrastructure
     annotation: Implement environmental controls, redundant sites, and disaster recovery
       planning
   - urn: urn:intuitem:risk:threat:ble-threats:t012
-    ref_id: T012
+    ref_id: BLE-T012
     name: Malware Infection
     description: Viruses, trojans, ransomware, or other malicious software compromising
       systems
     annotation: Deploy EDR/XDR solutions, regular patching, sandboxing, and user awareness
       training
   - urn: urn:intuitem:risk:threat:ble-threats:t013
-    ref_id: T013
+    ref_id: BLE-T013
     name: Zero-Day Exploit
     description: Exploitation of unknown vulnerabilities before patches are available
     annotation: Implement defense-in-depth, anomaly detection, virtual patching, and
       threat intelligence
   - urn: urn:intuitem:risk:threat:ble-threats:t014
-    ref_id: T014
+    ref_id: BLE-T014
     name: Patch Management Failure
     description: Delayed or missed security patches leaving systems vulnerable to
       known exploits
     annotation: Implement automated patch management, vulnerability scanning, and
       risk-based patching priorities
   - urn: urn:intuitem:risk:threat:ble-threats:t015
-    ref_id: T015
+    ref_id: BLE-T015
     name: Configuration Drift
     description: Systems deviating from secure baseline configurations over time
     annotation: Deploy configuration management tools, regular compliance scanning,
       and automated remediation
   - urn: urn:intuitem:risk:threat:ble-threats:t016
-    ref_id: T016
+    ref_id: BLE-T016
     name: Man-in-the-Middle Attack
     description: Interception and potential alteration of communications between two
       parties
     annotation: Implement end-to-end encryption, certificate validation, and secure
       communication protocols
   - urn: urn:intuitem:risk:threat:ble-threats:t017
-    ref_id: T017
+    ref_id: BLE-T017
     name: DNS Hijacking
     description: Manipulation of DNS responses to redirect traffic to malicious sites
     annotation: Deploy DNSSEC, DNS filtering, and monitor for DNS anomalies
   - urn: urn:intuitem:risk:threat:ble-threats:t018
-    ref_id: T018
+    ref_id: BLE-T018
     name: Network Eavesdropping
     description: Passive monitoring of network communications to capture sensitive
       data
     annotation: Implement network segmentation, encryption in transit, and network
       monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t019
-    ref_id: T019
+    ref_id: BLE-T019
     name: Insecure Code
     description: Applications containing security vulnerabilities due to poor coding
       practices
     annotation: Implement SAST/DAST, secure SDLC, code reviews, and developer security
       training
   - urn: urn:intuitem:risk:threat:ble-threats:t020
-    ref_id: T020
+    ref_id: BLE-T020
     name: SQL Injection
     description: Insertion of malicious SQL queries through application inputs
     annotation: Use parameterized queries, input validation, and web application firewalls
   - urn: urn:intuitem:risk:threat:ble-threats:t021
-    ref_id: T021
+    ref_id: BLE-T021
     name: Cross-Site Scripting
     description: Injection of malicious scripts into web applications viewed by other
       users
     annotation: Implement input sanitization, output encoding, and Content Security
       Policy
   - urn: urn:intuitem:risk:threat:ble-threats:t022
-    ref_id: T022
+    ref_id: BLE-T022
     name: API Vulnerability
     description: Security weaknesses in application programming interfaces exposing
       data or functionality
     annotation: Implement API authentication, rate limiting, input validation, and
       API gateways
   - urn: urn:intuitem:risk:threat:ble-threats:t023
-    ref_id: T023
+    ref_id: BLE-T023
     name: Supply Chain Attack
     description: Compromise of software or hardware supply chain to infiltrate target
       organizations
     annotation: Implement vendor risk management, software composition analysis, and
       supply chain monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t024
-    ref_id: T024
+    ref_id: BLE-T024
     name: Third-Party Breach
     description: Security incident at vendor or partner organization affecting your
       data or systems
     annotation: Conduct vendor assessments, implement contractual security requirements,
       and monitor third-party risks
   - urn: urn:intuitem:risk:threat:ble-threats:t025
-    ref_id: T025
+    ref_id: BLE-T025
     name: Shadow IT
     description: Use of unauthorized cloud services or applications bypassing security
       controls
     annotation: Deploy CASB solutions, user awareness programs, and sanctioned alternatives
   - urn: urn:intuitem:risk:threat:ble-threats:t026
-    ref_id: T026
+    ref_id: BLE-T026
     name: Delayed Incident Response
     description: Slow detection or response to security incidents allowing greater
       damage
     annotation: Implement SIEM/SOAR, incident response plans, and regular drills
   - urn: urn:intuitem:risk:threat:ble-threats:t027
-    ref_id: T027
+    ref_id: BLE-T027
     name: Evidence Destruction
     description: Loss or tampering of forensic evidence hindering incident investigation
     annotation: Implement log management, forensic readiness, and chain of custody
       procedures
   - urn: urn:intuitem:risk:threat:ble-threats:t028
-    ref_id: T028
+    ref_id: BLE-T028
     name: Incident Concealment
     description: Failure to report or intentional hiding of security incidents
     annotation: Establish incident reporting culture, whistleblower protections, and
       mandatory reporting
   - urn: urn:intuitem:risk:threat:ble-threats:t029
-    ref_id: T029
+    ref_id: BLE-T029
     name: Service Disruption
     description: Interruption of critical business services due to technical or operational
       failures
     annotation: Implement redundancy, failover mechanisms, and business continuity
       planning
   - urn: urn:intuitem:risk:threat:ble-threats:t030
-    ref_id: T030
+    ref_id: BLE-T030
     name: Data Loss
     description: Permanent loss of critical data due to deletion, corruption, or disaster
     annotation: Implement backup strategies, data replication, and recovery testing
   - urn: urn:intuitem:risk:threat:ble-threats:t031
-    ref_id: T031
+    ref_id: BLE-T031
     name: Recovery Failure
     description: Inability to restore operations within acceptable timeframes after
       disruption
     annotation: Regular DR testing, maintain RTOs/RPOs, and alternate processing sites
   - urn: urn:intuitem:risk:threat:ble-threats:t032
-    ref_id: T032
+    ref_id: BLE-T032
     name: Regulatory Violation
     description: Non-compliance with applicable laws, regulations, or standards resulting
       in penalties
     annotation: Implement compliance management program, regular audits, and regulatory
       monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t033
-    ref_id: T033
+    ref_id: BLE-T033
     name: Data Residency Violation
     description: Storage or processing of data outside permitted geographical boundaries
     annotation: Implement data classification, location controls, and data sovereignty
       policies
   - urn: urn:intuitem:risk:threat:ble-threats:t034
-    ref_id: T034
+    ref_id: BLE-T034
     name: License Non-Compliance
     description: Use of software without proper licensing leading to legal and financial
       risks
     annotation: Deploy software asset management, regular license audits, and procurement
       controls
   - urn: urn:intuitem:risk:threat:ble-threats:t035
-    ref_id: T035
+    ref_id: BLE-T035
     name: Personal Data Breach
     description: Unauthorized access, loss, or exposure of personal information
     annotation: Implement data protection controls, breach notification procedures,
       and privacy by design
   - urn: urn:intuitem:risk:threat:ble-threats:t036
-    ref_id: T036
+    ref_id: BLE-T036
     name: Consent Violation
     description: Processing personal data without proper consent or beyond consent
       scope
     annotation: Implement consent management, privacy notices, and data subject rights
       procedures
   - urn: urn:intuitem:risk:threat:ble-threats:t037
-    ref_id: T037
+    ref_id: BLE-T037
     name: Data Retention Violation
     description: Keeping personal data longer than legally permitted or necessary
     annotation: Implement retention policies, automated deletion, and data lifecycle
       management
   - urn: urn:intuitem:risk:threat:ble-threats:t038
-    ref_id: T038
+    ref_id: BLE-T038
     name: Cloud Misconfiguration
     description: Incorrect cloud service settings exposing data or resources
     annotation: Implement CSPM tools, infrastructure as code, and cloud security baselines
   - urn: urn:intuitem:risk:threat:ble-threats:t039
-    ref_id: T039
+    ref_id: BLE-T039
     name: Account Hijacking
     description: Compromise of cloud service accounts leading to unauthorized access
     annotation: Implement cloud MFA, privileged access management, and activity monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t040
-    ref_id: T040
+    ref_id: BLE-T040
     name: Data Leakage
     description: Unintended exposure of data through cloud storage or services
     annotation: Implement DLP solutions, encryption, and access controls
   - urn: urn:intuitem:risk:threat:ble-threats:t041
-    ref_id: T041
+    ref_id: BLE-T041
     name: Shared Technology Vulnerability
     description: Vulnerabilities in shared cloud infrastructure affecting multiple
       tenants
     annotation: Monitor cloud provider security, implement defense-in-depth, and isolation
       controls
   - urn: urn:intuitem:risk:threat:ble-threats:t042
-    ref_id: T042
+    ref_id: BLE-T042
     name: IoT Device Compromise
     description: Exploitation of vulnerable IoT devices to gain network access or
       conduct attacks
     annotation: Implement IoT security standards, network segmentation, and device
       management
   - urn: urn:intuitem:risk:threat:ble-threats:t043
-    ref_id: T043
+    ref_id: BLE-T043
     name: OT System Attack
     description: Targeting of operational technology systems affecting physical processes
     annotation: Implement air-gapping where possible, OT monitoring, and safety systems
   - urn: urn:intuitem:risk:threat:ble-threats:t044
-    ref_id: T044
+    ref_id: BLE-T044
     name: Firmware Manipulation
     description: Modification of device firmware to introduce backdoors or malicious
       functionality
     annotation: Implement secure boot, firmware signing, and integrity monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t045
-    ref_id: T045
+    ref_id: BLE-T045
     name: Model Poisoning
     description: Manipulation of training data to corrupt AI model behavior
     annotation: Implement data validation, anomaly detection in training, and model
       versioning
   - urn: urn:intuitem:risk:threat:ble-threats:t046
-    ref_id: T046
+    ref_id: BLE-T046
     name: Adversarial Attack
     description: Crafted inputs designed to cause AI models to make incorrect predictions
     annotation: Implement input validation, adversarial training, and model robustness
       testing
   - urn: urn:intuitem:risk:threat:ble-threats:t047
-    ref_id: T047
+    ref_id: BLE-T047
     name: Model Inversion
     description: Extraction of sensitive training data from AI models
     annotation: Implement differential privacy, model access controls, and output
       filtering
   - urn: urn:intuitem:risk:threat:ble-threats:t048
-    ref_id: T048
+    ref_id: BLE-T048
     name: AI Bias Exploitation
     description: Exploitation of biases in AI systems for discrimination or manipulation
     annotation: Implement bias testing, fairness metrics, and regular model audits
   - urn: urn:intuitem:risk:threat:ble-threats:t049
-    ref_id: T049
+    ref_id: BLE-T049
     name: Malicious Insider
     description: Intentional harm by employees, contractors, or partners with legitimate
       access
     annotation: Implement user behavior analytics, separation of duties, and background
       checks
   - urn: urn:intuitem:risk:threat:ble-threats:t050
-    ref_id: T050
+    ref_id: BLE-T050
     name: Negligent Insider
     description: Unintentional security incidents caused by employee errors or carelessness
     annotation: Implement security awareness training, process improvements, and error-prevention
       controls
   - urn: urn:intuitem:risk:threat:ble-threats:t051
-    ref_id: T051
+    ref_id: BLE-T051
     name: Compromised Insider
     description: Legitimate users whose accounts or devices are controlled by external
       attackers
     annotation: Implement endpoint protection, behavioral monitoring, and incident
       response procedures
   - urn: urn:intuitem:risk:threat:ble-threats:t052
-    ref_id: T052
+    ref_id: BLE-T052
     name: APT Campaign
     description: Long-term targeted attacks by sophisticated threat actors
     annotation: Implement threat hunting, deception technologies, and advanced detection
       capabilities
   - urn: urn:intuitem:risk:threat:ble-threats:t053
-    ref_id: T053
+    ref_id: BLE-T053
     name: Living off the Land
     description: Use of legitimate tools and processes to avoid detection
     annotation: Implement application whitelisting, behavioral analysis, and command-line
       logging
   - urn: urn:intuitem:risk:threat:ble-threats:t054
-    ref_id: T054
+    ref_id: BLE-T054
     name: Lateral Movement
     description: Attacker movement through network after initial compromise
     annotation: Implement network segmentation, jump server controls, and east-west
       traffic monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t055
-    ref_id: T055
+    ref_id: BLE-T055
     name: Phishing Attack
     description: Deceptive emails or messages to steal credentials or deliver malware
     annotation: Implement email security, user training, and simulated phishing exercises
   - urn: urn:intuitem:risk:threat:ble-threats:t056
-    ref_id: T056
+    ref_id: BLE-T056
     name: Pretexting
     description: Creating false scenarios to manipulate victims into divulging information
     annotation: Implement verification procedures, security awareness, and information
       classification
   - urn: urn:intuitem:risk:threat:ble-threats:t057
-    ref_id: T057
+    ref_id: BLE-T057
     name: Baiting
     description: Offering something enticing to trigger victim actions compromising
       security
     annotation: Implement USB controls, download restrictions, and user awareness
       training
   - urn: urn:intuitem:risk:threat:ble-threats:t058
-    ref_id: T058
+    ref_id: BLE-T058
     name: Broken Authentication
     description: Flaws in authentication mechanisms allowing attackers to compromise
       identities
     annotation: Implement secure session management, MFA, and authentication best
       practices
   - urn: urn:intuitem:risk:threat:ble-threats:t059
-    ref_id: T059
+    ref_id: BLE-T059
     name: XML External Entity
     description: Exploitation of XML processors to access internal files or conduct
       attacks
     annotation: Disable XML external entity processing, use JSON, and input validation
   - urn: urn:intuitem:risk:threat:ble-threats:t060
-    ref_id: T060
+    ref_id: BLE-T060
     name: Server-Side Request Forgery
     description: Forcing server to make requests to unintended locations
     annotation: Implement URL validation, network segmentation, and disable unnecessary
       protocols
   - urn: urn:intuitem:risk:threat:ble-threats:t061
-    ref_id: T061
+    ref_id: BLE-T061
     name: Mobile Malware
     description: Malicious applications or code targeting mobile devices
     annotation: Implement mobile device management, app vetting, and containerization
   - urn: urn:intuitem:risk:threat:ble-threats:t062
-    ref_id: T062
+    ref_id: BLE-T062
     name: Jailbreak/Root
     description: Removal of OS restrictions exposing devices to additional risks
     annotation: Implement jailbreak detection, compliance policies, and device attestation
   - urn: urn:intuitem:risk:threat:ble-threats:t063
-    ref_id: T063
+    ref_id: BLE-T063
     name: App Store Bypass
     description: Installation of applications from untrusted sources
     annotation: Implement app whitelisting, enterprise app stores, and installation
       restrictions
   - urn: urn:intuitem:risk:threat:ble-threats:t064
-    ref_id: T064
+    ref_id: BLE-T064
     name: Ransomware Attack
     description: Encryption of data with demands for payment to restore access
     annotation: Implement immutable backups, segmentation, and ransomware-specific
       defenses
   - urn: urn:intuitem:risk:threat:ble-threats:t065
-    ref_id: T065
+    ref_id: BLE-T065
     name: Double Extortion
     description: Ransomware combined with data theft and threat of public release
     annotation: Implement data loss prevention, encryption, and incident response
       planning
   - urn: urn:intuitem:risk:threat:ble-threats:t066
-    ref_id: T066
+    ref_id: BLE-T066
     name: Ransomware-as-a-Service
     description: Commercial ransomware operations enabling less skilled attackers
     annotation: Implement layered defenses, threat intelligence, and user awareness
   - urn: urn:intuitem:risk:threat:ble-threats:t067
-    ref_id: T067
+    ref_id: BLE-T067
     name: Cryptojacking
     description: Unauthorized use of computing resources for cryptocurrency mining
     annotation: Implement resource monitoring, browser protections, and endpoint detection
   - urn: urn:intuitem:risk:threat:ble-threats:t068
-    ref_id: T068
+    ref_id: BLE-T068
     name: Smart Contract Vulnerability
     description: Flaws in blockchain smart contracts leading to financial loss
     annotation: Implement code audits, formal verification, and testing frameworks
   - urn: urn:intuitem:risk:threat:ble-threats:t069
-    ref_id: T069
+    ref_id: BLE-T069
     name: Private Key Theft
     description: Compromise of cryptocurrency wallet private keys
     annotation: Implement hardware wallets, multi-signature requirements, and key
       management
   - urn: urn:intuitem:risk:threat:ble-threats:t070
-    ref_id: T070
+    ref_id: BLE-T070
     name: Quantum Computing Threat
     description: Future quantum computers breaking current encryption standards
     annotation: Implement crypto-agility, monitor quantum developments, and post-quantum
       cryptography
   - urn: urn:intuitem:risk:threat:ble-threats:t071
-    ref_id: T071
+    ref_id: BLE-T071
     name: 5G Security Risk
     description: New vulnerabilities introduced by 5G network deployments
     annotation: Implement 5G security standards, network slicing controls, and edge
       security
   - urn: urn:intuitem:risk:threat:ble-threats:t072
-    ref_id: T072
+    ref_id: BLE-T072
     name: Deepfake Attack
     description: Use of AI-generated fake audio/video for fraud or manipulation
     annotation: Implement verification procedures, detection tools, and awareness
       training
   - urn: urn:intuitem:risk:threat:ble-threats:t073
-    ref_id: T073
+    ref_id: BLE-T073
     name: Data Classification Failure
     description: Improper categorization of data leading to inadequate protection
     annotation: Implement data classification schemes, automated tagging, and handling
       procedures
   - urn: urn:intuitem:risk:threat:ble-threats:t074
-    ref_id: T074
+    ref_id: BLE-T074
     name: Data Quality Issue
     description: Inaccurate, incomplete, or inconsistent data affecting decisions
     annotation: Implement data quality controls, validation rules, and governance
       processes
   - urn: urn:intuitem:risk:threat:ble-threats:t075
-    ref_id: T075
+    ref_id: BLE-T075
     name: Data Lineage Gap
     description: Inability to track data origin, transformations, and usage
     annotation: Implement metadata management, data catalogs, and lineage tracking
   - urn: urn:intuitem:risk:threat:ble-threats:t076
-    ref_id: T076
+    ref_id: BLE-T076
     name: Network Intrusion
     description: Unauthorized access to network resources through various attack vectors
     annotation: Implement IDS/IPS, network segmentation, and continuous monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t077
-    ref_id: T077
+    ref_id: BLE-T077
     name: Wireless Attack
     description: Exploitation of wireless networks to gain unauthorized access
     annotation: Implement WPA3, wireless IDS, and guest network isolation
   - urn: urn:intuitem:risk:threat:ble-threats:t078
-    ref_id: T078
+    ref_id: BLE-T078
     name: BGP Hijacking
     description: Manipulation of internet routing to redirect traffic
     annotation: Implement RPKI, route monitoring, and provider diversity
   - urn: urn:intuitem:risk:threat:ble-threats:t079
-    ref_id: T079
+    ref_id: BLE-T079
     name: Endpoint Compromise
     description: Infection or control of end-user devices
     annotation: Implement EDR, application control, and hardening standards
   - urn: urn:intuitem:risk:threat:ble-threats:t080
-    ref_id: T080
+    ref_id: BLE-T080
     name: BYOD Risk
     description: Security risks from personal devices accessing corporate resources
     annotation: Implement MDM, containerization, and BYOD policies
   - urn: urn:intuitem:risk:threat:ble-threats:t081
-    ref_id: T081
+    ref_id: BLE-T081
     name: USB Attack
     description: Malware delivery or data exfiltration via USB devices
     annotation: Implement USB controls, device whitelisting, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t082
-    ref_id: T082
+    ref_id: BLE-T082
     name: MFA Bypass
     description: Circumvention of multi-factor authentication mechanisms
     annotation: Implement phishing-resistant MFA, number matching, and risk-based
       authentication
   - urn: urn:intuitem:risk:threat:ble-threats:t083
-    ref_id: T083
+    ref_id: BLE-T083
     name: Token Theft
     description: Stealing authentication tokens to impersonate users
     annotation: Implement token binding, short lifetimes, and anomaly detection
   - urn: urn:intuitem:risk:threat:ble-threats:t084
-    ref_id: T084
+    ref_id: BLE-T084
     name: Authorization Bypass
     description: Circumventing access controls to perform unauthorized actions
     annotation: Implement proper authorization checks, RBAC/ABAC, and regular reviews
   - urn: urn:intuitem:risk:threat:ble-threats:t085
-    ref_id: T085
+    ref_id: BLE-T085
     name: Log Tampering
     description: Modification or deletion of logs to hide malicious activity
     annotation: Implement log integrity protection, centralized logging, and immutable
       storage
   - urn: urn:intuitem:risk:threat:ble-threats:t086
-    ref_id: T086
+    ref_id: BLE-T086
     name: Monitoring Blind Spot
     description: Gaps in security monitoring allowing undetected attacks
     annotation: Implement comprehensive monitoring, regular coverage assessments,
       and threat modeling
   - urn: urn:intuitem:risk:threat:ble-threats:t087
-    ref_id: T087
+    ref_id: BLE-T087
     name: Alert Fatigue
     description: Overwhelming number of alerts causing important warnings to be missed
     annotation: Implement alert tuning, automation, and risk-based prioritization
   - urn: urn:intuitem:risk:threat:ble-threats:t088
-    ref_id: T088
+    ref_id: BLE-T088
     name: Vulnerability Scanning Gap
     description: Unscanned systems or applications harboring exploitable vulnerabilities
     annotation: Implement asset discovery, comprehensive scanning, and coverage metrics
   - urn: urn:intuitem:risk:threat:ble-threats:t089
-    ref_id: T089
+    ref_id: BLE-T089
     name: False Positive Overload
     description: Excessive false positives hindering effective vulnerability management
     annotation: Implement validation processes, risk scoring, and automated verification
   - urn: urn:intuitem:risk:threat:ble-threats:t090
-    ref_id: T090
+    ref_id: BLE-T090
     name: Remediation Delay
     description: Slow patching or mitigation of identified vulnerabilities
     annotation: Implement SLA-based remediation, automated patching, and compensating
       controls
   - urn: urn:intuitem:risk:threat:ble-threats:t091
-    ref_id: T091
+    ref_id: BLE-T091
     name: Business Email Compromise
     description: Impersonation of executives to conduct fraud or data theft
     annotation: Implement DMARC/SPF/DKIM, email authentication, and payment verification
   - urn: urn:intuitem:risk:threat:ble-threats:t092
-    ref_id: T092
+    ref_id: BLE-T092
     name: Email Spoofing
     description: Forging sender addresses to deceive recipients
     annotation: Implement sender verification, email authentication protocols, and
       user training
   - urn: urn:intuitem:risk:threat:ble-threats:t093
-    ref_id: T093
+    ref_id: BLE-T093
     name: Malicious Attachment
     description: Weaponized files delivered via email
     annotation: Implement sandboxing, attachment scanning, and file type restrictions
   - urn: urn:intuitem:risk:threat:ble-threats:t094
-    ref_id: T094
+    ref_id: BLE-T094
     name: Database Breach
     description: Unauthorized access to database systems containing sensitive data
     annotation: Implement database encryption, access controls, and activity monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t095
-    ref_id: T095
+    ref_id: BLE-T095
     name: NoSQL Injection
     description: Injection attacks targeting NoSQL databases
     annotation: Implement input validation, parameterized queries, and least privilege
   - urn: urn:intuitem:risk:threat:ble-threats:t096
-    ref_id: T096
+    ref_id: BLE-T096
     name: Database Activity Bypass
     description: Circumventing database monitoring and audit controls
     annotation: Implement database activity monitoring, privileged user monitoring,
       and forensics
   - urn: urn:intuitem:risk:threat:ble-threats:t097
-    ref_id: T097
+    ref_id: BLE-T097
     name: Container Escape
     description: Breaking out of container isolation to access host systems
     annotation: Implement container hardening, runtime protection, and security policies
   - urn: urn:intuitem:risk:threat:ble-threats:t098
-    ref_id: T098
+    ref_id: BLE-T098
     name: CI/CD Pipeline Attack
     description: Compromise of development pipeline to inject malicious code
     annotation: Implement pipeline security, code signing, and automated security
       testing
   - urn: urn:intuitem:risk:threat:ble-threats:t099
-    ref_id: T099
+    ref_id: BLE-T099
     name: Secrets Exposure
     description: Hardcoded credentials or keys exposed in code or configurations
     annotation: Implement secrets management, scanning tools, and rotation policies
   - urn: urn:intuitem:risk:threat:ble-threats:t100
-    ref_id: T100
+    ref_id: BLE-T100
     name: Implicit Trust Exploitation
     description: Exploitation of traditional perimeter-based trust models
     annotation: Implement zero trust architecture, continuous verification, and microsegmentation
   - urn: urn:intuitem:risk:threat:ble-threats:t101
-    ref_id: T101
+    ref_id: BLE-T101
     name: DDoS Attack
     description: Distributed denial of service attacks overwhelming systems with traffic
     annotation: Implement DDoS protection, CDN, rate limiting, and traffic scrubbing
   - urn: urn:intuitem:risk:threat:ble-threats:t102
-    ref_id: T102
+    ref_id: BLE-T102
     name: Application Layer DDoS
     description: Resource exhaustion attacks targeting application logic
     annotation: Implement rate limiting, CAPTCHA, and application-layer protections
   - urn: urn:intuitem:risk:threat:ble-threats:t103
-    ref_id: T103
+    ref_id: BLE-T103
     name: Reflection/Amplification Attack
     description: Using third-party servers to amplify attack traffic
     annotation: Implement ingress filtering, monitor for anomalies, and upstream filtering
   - urn: urn:intuitem:risk:threat:ble-threats:t104
-    ref_id: T104
+    ref_id: BLE-T104
     name: Data Exfiltration via DNS
     description: Stealing data through DNS queries to bypass security controls
     annotation: Monitor DNS traffic, implement DNS filtering, and data loss prevention
   - urn: urn:intuitem:risk:threat:ble-threats:t105
-    ref_id: T105
+    ref_id: BLE-T105
     name: Steganography
     description: Hiding data within other files or protocols for covert exfiltration
     annotation: Implement content inspection, anomaly detection, and egress monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t106
-    ref_id: T106
+    ref_id: BLE-T106
     name: Cloud Storage Exfiltration
     description: Unauthorized data transfer to personal cloud storage accounts
     annotation: Implement CASB, DLP policies, and monitor cloud usage
   - urn: urn:intuitem:risk:threat:ble-threats:t107
-    ref_id: T107
+    ref_id: BLE-T107
     name: Hardware Implant
     description: Malicious hardware components inserted into supply chain or systems
     annotation: Implement supply chain verification, hardware attestation, and physical
       inspections
   - urn: urn:intuitem:risk:threat:ble-threats:t108
-    ref_id: T108
+    ref_id: BLE-T108
     name: Side-Channel Attack
     description: Extracting information from physical implementation of systems
     annotation: Implement physical isolation, shielding, and side-channel resistant
       implementations
   - urn: urn:intuitem:risk:threat:ble-threats:t109
-    ref_id: T109
+    ref_id: BLE-T109
     name: Rowhammer Attack
     description: Exploiting hardware vulnerabilities to manipulate memory
     annotation: Deploy mitigations, monitor for anomalies, and hardware refresh cycles
   - urn: urn:intuitem:risk:threat:ble-threats:t110
-    ref_id: T110
+    ref_id: BLE-T110
     name: VM Escape
     description: Breaking out of virtual machine to access hypervisor or other VMs
     annotation: Implement hypervisor hardening, segmentation, and regular patching
   - urn: urn:intuitem:risk:threat:ble-threats:t111
-    ref_id: T111
+    ref_id: BLE-T111
     name: Virtual Machine Sprawl
     description: Uncontrolled proliferation of VMs leading to security gaps
     annotation: Implement VM lifecycle management, automated discovery, and governance
   - urn: urn:intuitem:risk:threat:ble-threats:t112
-    ref_id: T112
+    ref_id: BLE-T112
     name: Hypervisor Compromise
     description: Attack on virtualization layer affecting all hosted systems
     annotation: Harden hypervisors, implement monitoring, and defense-in-depth
   - urn: urn:intuitem:risk:threat:ble-threats:t113
-    ref_id: T113
+    ref_id: BLE-T113
     name: Backup Corruption
     description: Malicious or accidental corruption of backup data
     annotation: Implement backup validation, immutable storage, and multiple backup
       copies
   - urn: urn:intuitem:risk:threat:ble-threats:t114
-    ref_id: T114
+    ref_id: BLE-T114
     name: Backup Access Compromise
     description: Unauthorized access to backup systems and data
     annotation: Implement access controls, encryption, and separation of backup infrastructure
   - urn: urn:intuitem:risk:threat:ble-threats:t115
-    ref_id: T115
+    ref_id: BLE-T115
     name: Recovery Point Manipulation
     description: Tampering with recovery points to prevent restoration
     annotation: Implement integrity verification, secure storage, and regular testing
   - urn: urn:intuitem:risk:threat:ble-threats:t116
-    ref_id: T116
+    ref_id: BLE-T116
     name: CA Compromise
     description: Certificate Authority breach allowing issuance of fraudulent certificates
     annotation: Implement certificate transparency, monitoring, and backup CAs
   - urn: urn:intuitem:risk:threat:ble-threats:t117
-    ref_id: T117
+    ref_id: BLE-T117
     name: Certificate Pinning Bypass
     description: Circumventing certificate pinning protections
     annotation: Implement proper pinning, backup pins, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t118
-    ref_id: T118
+    ref_id: BLE-T118
     name: Wildcard Certificate Abuse
     description: Misuse of wildcard certificates for unauthorized domains
     annotation: Limit wildcard usage, implement monitoring, and certificate inventory
   - urn: urn:intuitem:risk:threat:ble-threats:t119
-    ref_id: T119
+    ref_id: BLE-T119
     name: VPN Compromise
     description: Exploitation of VPN vulnerabilities or credentials
     annotation: Implement VPN hardening, MFA, and split tunneling controls
   - urn: urn:intuitem:risk:threat:ble-threats:t120
-    ref_id: T120
+    ref_id: BLE-T120
     name: RDP Attack
     description: Exploitation of Remote Desktop Protocol for unauthorized access
     annotation: Implement RDP gateway, network level authentication, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t121
-    ref_id: T121
+    ref_id: BLE-T121
     name: Remote Access Trojan
     description: Malware providing persistent remote access to systems
     annotation: Deploy endpoint detection, network monitoring, and behavioral analysis
   - urn: urn:intuitem:risk:threat:ble-threats:t122
-    ref_id: T122
+    ref_id: BLE-T122
     name: Browser Exploit
     description: Exploitation of browser vulnerabilities for code execution
     annotation: Implement browser isolation, regular updates, and sandboxing
   - urn: urn:intuitem:risk:threat:ble-threats:t123
-    ref_id: T123
+    ref_id: BLE-T123
     name: Malicious Extension
     description: Browser extensions with hidden malicious functionality
     annotation: Implement extension whitelisting, monitoring, and enterprise policies
   - urn: urn:intuitem:risk:threat:ble-threats:t124
-    ref_id: T124
+    ref_id: BLE-T124
     name: Clickjacking
     description: Tricking users into clicking hidden or disguised elements
     annotation: Implement X-Frame-Options, frame-busting, and user awareness
   - urn: urn:intuitem:risk:threat:ble-threats:t125
-    ref_id: T125
+    ref_id: BLE-T125
     name: Process Injection
     description: Injecting malicious code into legitimate processes
     annotation: Implement process integrity monitoring, EDR, and application control
   - urn: urn:intuitem:risk:threat:ble-threats:t126
-    ref_id: T126
+    ref_id: BLE-T126
     name: Memory Scraping
     description: Extracting sensitive data from system memory
     annotation: Implement memory encryption, secure coding, and endpoint protection
   - urn: urn:intuitem:risk:threat:ble-threats:t127
-    ref_id: T127
+    ref_id: BLE-T127
     name: DLL Hijacking
     description: Replacing or injecting malicious DLLs into applications
     annotation: Implement DLL signing, search order hardening, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t128
-    ref_id: T128
+    ref_id: BLE-T128
     name: File System Corruption
     description: Intentional corruption of file systems to cause denial of service
     annotation: Implement file system monitoring, integrity checking, and backups
   - urn: urn:intuitem:risk:threat:ble-threats:t129
-    ref_id: T129
+    ref_id: BLE-T129
     name: Symbolic Link Attack
     description: Exploiting symbolic links to access unauthorized files
     annotation: Implement proper permissions, input validation, and secure file operations
   - urn: urn:intuitem:risk:threat:ble-threats:t130
-    ref_id: T130
+    ref_id: BLE-T130
     name: Race Condition
     description: Exploiting timing windows in file operations
     annotation: Implement atomic operations, proper locking, and secure coding
   - urn: urn:intuitem:risk:threat:ble-threats:t131
-    ref_id: T131
+    ref_id: BLE-T131
     name: Bluetooth Attack
     description: Exploitation of Bluetooth protocols for unauthorized access
     annotation: Disable unnecessary Bluetooth, implement pairing controls, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t132
-    ref_id: T132
+    ref_id: BLE-T132
     name: RFID Cloning
     description: Copying RFID badges or cards for unauthorized access
     annotation: Implement encrypted RFID, multi-factor authentication, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t133
-    ref_id: T133
+    ref_id: BLE-T133
     name: Cellular Network Attack
     description: Exploitation of cellular protocols for eavesdropping or tracking
     annotation: Implement encrypted communications, VPN, and device hardening
   - urn: urn:intuitem:risk:threat:ble-threats:t134
-    ref_id: T134
+    ref_id: BLE-T134
     name: NTP Attack
     description: Manipulation of time synchronization to bypass security controls
     annotation: Implement NTP authentication, multiple time sources, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t135
-    ref_id: T135
+    ref_id: BLE-T135
     name: Replay Attack
     description: Reusing valid data transmissions to gain unauthorized access
     annotation: Implement timestamps, nonces, and session management
   - urn: urn:intuitem:risk:threat:ble-threats:t136
-    ref_id: T136
+    ref_id: BLE-T136
     name: Time-of-Check Time-of-Use
     description: Exploiting time gap between checking and using resources
     annotation: Implement atomic operations, proper validation, and secure coding
   - urn: urn:intuitem:risk:threat:ble-threats:t137
-    ref_id: T137
+    ref_id: BLE-T137
     name: Protocol Downgrade
     description: Forcing use of older, vulnerable protocol versions
     annotation: Enforce minimum protocol versions, disable legacy protocols, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t138
-    ref_id: T138
+    ref_id: BLE-T138
     name: SMB Attack
     description: Exploitation of Server Message Block protocol vulnerabilities
     annotation: Implement SMB signing, disable SMBv1, and network segmentation
   - urn: urn:intuitem:risk:threat:ble-threats:t139
-    ref_id: T139
+    ref_id: BLE-T139
     name: LDAP Injection
     description: Injection attacks against LDAP directory services
     annotation: Implement input validation, parameterized queries, and access controls
   - urn: urn:intuitem:risk:threat:ble-threats:t140
-    ref_id: T140
+    ref_id: BLE-T140
     name: Printer Attack
     description: Exploitation of network printers for data theft or pivot point
     annotation: Implement printer hardening, network segmentation, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t141
-    ref_id: T141
+    ref_id: BLE-T141
     name: Document Metadata Leak
     description: Exposure of sensitive information in document metadata
     annotation: Implement metadata scrubbing, awareness training, and DLP
   - urn: urn:intuitem:risk:threat:ble-threats:t142
-    ref_id: T142
+    ref_id: BLE-T142
     name: Print Job Interception
     description: Capturing print jobs containing sensitive information
     annotation: Implement secure printing, encryption, and pull printing
   - urn: urn:intuitem:risk:threat:ble-threats:t143
-    ref_id: T143
+    ref_id: BLE-T143
     name: SCADA Attack
     description: Targeting supervisory control and data acquisition systems
     annotation: Implement ICS segmentation, monitoring, and redundancy
   - urn: urn:intuitem:risk:threat:ble-threats:t144
-    ref_id: T144
+    ref_id: BLE-T144
     name: PLC Manipulation
     description: Altering programmable logic controller code or configuration
     annotation: Implement code signing, change control, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t145
-    ref_id: T145
+    ref_id: BLE-T145
     name: Safety System Bypass
     description: Disabling or bypassing industrial safety systems
     annotation: Implement safety instrumented systems, redundancy, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t146
-    ref_id: T146
+    ref_id: BLE-T146
     name: ATM Malware
     description: Malware targeting automated teller machines
     annotation: Implement ATM hardening, whitelisting, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t147
-    ref_id: T147
+    ref_id: BLE-T147
     name: POS Malware
     description: Point-of-sale system compromise for payment card theft
     annotation: Implement PCI DSS controls, encryption, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t148
-    ref_id: T148
+    ref_id: BLE-T148
     name: Wire Transfer Fraud
     description: Unauthorized or fraudulent wire transfer requests
     annotation: Implement dual approval, out-of-band verification, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t149
-    ref_id: T149
+    ref_id: BLE-T149
     name: Medical Device Hack
     description: Compromise of connected medical devices
     annotation: Implement device segmentation, patching programs, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t150
-    ref_id: T150
+    ref_id: BLE-T150
     name: HIPAA Violation
     description: Non-compliance with healthcare data protection requirements
     annotation: Implement HIPAA controls, training, and regular audits
   - urn: urn:intuitem:risk:threat:ble-threats:t151
-    ref_id: T151
+    ref_id: BLE-T151
     name: Drug Diversion
     description: Unauthorized access or theft of controlled substances
     annotation: Implement access controls, audit trails, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t152
-    ref_id: T152
+    ref_id: BLE-T152
     name: SS7 Exploitation
     description: Abuse of Signaling System 7 for surveillance or fraud
     annotation: Implement SS7 filtering, monitoring, and alternative protocols
   - urn: urn:intuitem:risk:threat:ble-threats:t153
-    ref_id: T153
+    ref_id: BLE-T153
     name: SIM Swapping
     description: Transferring victim's phone number to attacker-controlled SIM
     annotation: Implement additional authentication, carrier security, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t154
-    ref_id: T154
+    ref_id: BLE-T154
     name: Voicemail Hacking
     description: Unauthorized access to voicemail systems
     annotation: Implement strong PINs, callback verification, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t155
-    ref_id: T155
+    ref_id: BLE-T155
     name: Code Repository Breach
     description: Unauthorized access to source code repositories
     annotation: Implement repository access controls, signing, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t156
-    ref_id: T156
+    ref_id: BLE-T156
     name: Dependency Confusion
     description: Substituting malicious packages for internal dependencies
     annotation: Implement package signing, private registries, and scanning
   - urn: urn:intuitem:risk:threat:ble-threats:t157
-    ref_id: T157
+    ref_id: BLE-T157
     name: Build System Compromise
     description: Injection of malicious code during build process
     annotation: Implement build isolation, signing, and reproducible builds
   - urn: urn:intuitem:risk:threat:ble-threats:t158
-    ref_id: T158
+    ref_id: BLE-T158
     name: Cache Poisoning
     description: Injecting malicious content into cache systems
     annotation: Implement cache validation, segmentation, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t159
-    ref_id: T159
+    ref_id: BLE-T159
     name: CDN Hijacking
     description: Compromise of content delivery network to serve malicious content
     annotation: Implement CDN authentication, monitoring, and integrity checking
   - urn: urn:intuitem:risk:threat:ble-threats:t160
-    ref_id: T160
+    ref_id: BLE-T160
     name: Edge Location Attack
     description: Targeting CDN edge servers for data or access
     annotation: Implement edge security, monitoring, and redundancy
   - urn: urn:intuitem:risk:threat:ble-threats:t161
-    ref_id: T161
+    ref_id: BLE-T161
     name: Anti-Forensics
     description: Techniques to prevent or hinder forensic investigation
     annotation: Implement tamper-evident logging, multiple evidence sources, and protection
   - urn: urn:intuitem:risk:threat:ble-threats:t162
-    ref_id: T162
+    ref_id: BLE-T162
     name: Timeline Manipulation
     description: Altering timestamps to obscure attack timeline
     annotation: Implement secure time sources, correlation, and integrity protection
   - urn: urn:intuitem:risk:threat:ble-threats:t163
-    ref_id: T163
+    ref_id: BLE-T163
     name: Memory Artifact Destruction
     description: Removing traces of malicious activity from memory
     annotation: Implement memory acquisition, volatility monitoring, and protection
   - urn: urn:intuitem:risk:threat:ble-threats:t164
-    ref_id: T164
+    ref_id: BLE-T164
     name: Collaboration Platform Attack
     description: Exploitation of tools like Slack, Teams, or Zoom
     annotation: Implement platform security settings, monitoring, and training
   - urn: urn:intuitem:risk:threat:ble-threats:t165
-    ref_id: T165
+    ref_id: BLE-T165
     name: Meeting Bombing
     description: Unauthorized access to online meetings
     annotation: Implement meeting passwords, waiting rooms, and host controls
   - urn: urn:intuitem:risk:threat:ble-threats:t166
-    ref_id: T166
+    ref_id: BLE-T166
     name: File Sharing Abuse
     description: Misuse of file sharing platforms for data exfiltration
     annotation: Implement sharing controls, monitoring, and DLP
   - urn: urn:intuitem:risk:threat:ble-threats:t167
-    ref_id: T167
+    ref_id: BLE-T167
     name: Biometric Spoofing
     description: Bypassing biometric authentication with fake biometrics
     annotation: Implement liveness detection, multi-modal biometrics, and fallback
       authentication
   - urn: urn:intuitem:risk:threat:ble-threats:t168
-    ref_id: T168
+    ref_id: BLE-T168
     name: Biometric Data Theft
     description: Stealing biometric templates or data
     annotation: Implement template protection, encryption, and secure storage
   - urn: urn:intuitem:risk:threat:ble-threats:t169
-    ref_id: T169
+    ref_id: BLE-T169
     name: Biometric System Bypass
     description: Circumventing biometric systems through technical means
     annotation: Implement anti-spoofing, monitoring, and multi-factor authentication
   - urn: urn:intuitem:risk:threat:ble-threats:t170
-    ref_id: T170
+    ref_id: BLE-T170
     name: Harvest Now Decrypt Later
     description: Collecting encrypted data for future quantum decryption
     annotation: Implement post-quantum cryptography, perfect forward secrecy, and
       migration planning
   - urn: urn:intuitem:risk:threat:ble-threats:t171
-    ref_id: T171
+    ref_id: BLE-T171
     name: Quantum Algorithm Attack
     description: Using quantum algorithms to break current cryptography
     annotation: Deploy quantum-resistant algorithms, hybrid approaches, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t172
-    ref_id: T172
+    ref_id: BLE-T172
     name: Quantum Key Distribution Attack
     description: Attacking quantum key distribution systems
     annotation: Implement QKD security, classical authentication, and redundancy
   - urn: urn:intuitem:risk:threat:ble-threats:t173
-    ref_id: T173
+    ref_id: BLE-T173
     name: Edge Device Compromise
     description: Exploitation of edge computing devices
     annotation: Implement edge security, remote attestation, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t174
-    ref_id: T174
+    ref_id: BLE-T174
     name: Edge Data Exposure
     description: Unauthorized access to data processed at edge locations
     annotation: Implement edge encryption, access controls, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t175
-    ref_id: T175
+    ref_id: BLE-T175
     name: Edge-to-Cloud Attack
     description: Using compromised edge devices to attack cloud infrastructure
     annotation: Implement zero trust, segmentation, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t176
-    ref_id: T176
+    ref_id: BLE-T176
     name: Satellite Communication Intercept
     description: Eavesdropping on satellite communications
     annotation: Implement encryption, frequency hopping, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t177
-    ref_id: T177
+    ref_id: BLE-T177
     name: GPS Spoofing
     description: Providing false GPS signals to mislead systems
     annotation: Implement GPS authentication, multiple sources, and anomaly detection
   - urn: urn:intuitem:risk:threat:ble-threats:t178
-    ref_id: T178
+    ref_id: BLE-T178
     name: Ground Station Attack
     description: Targeting satellite ground control stations
     annotation: Implement physical security, network isolation, and redundancy
   - urn: urn:intuitem:risk:threat:ble-threats:t179
-    ref_id: T179
+    ref_id: BLE-T179
     name: AR/VR Data Harvesting
     description: Unauthorized collection of biometric and behavioral data
     annotation: Implement privacy controls, consent management, and data minimization
   - urn: urn:intuitem:risk:threat:ble-threats:t180
-    ref_id: T180
+    ref_id: BLE-T180
     name: Virtual Environment Manipulation
     description: Altering VR environments for malicious purposes
     annotation: Implement content validation, integrity checking, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t181
-    ref_id: T181
+    ref_id: BLE-T181
     name: AR Overlay Attack
     description: Malicious augmented reality overlays misleading users
     annotation: Implement content authentication, source verification, and user controls
   - urn: urn:intuitem:risk:threat:ble-threats:t182
-    ref_id: T182
+    ref_id: BLE-T182
     name: Robot Hijacking
     description: Taking control of robotic systems
     annotation: Implement authentication, fail-safes, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t183
-    ref_id: T183
+    ref_id: BLE-T183
     name: Automation Logic Bomb
     description: Hidden malicious code in automation systems
     annotation: Implement code review, testing, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t184
-    ref_id: T184
+    ref_id: BLE-T184
     name: Sensor Manipulation
     description: Feeding false data to sensors affecting automated decisions
     annotation: Implement sensor validation, redundancy, and anomaly detection
   - urn: urn:intuitem:risk:threat:ble-threats:t185
-    ref_id: T185
+    ref_id: BLE-T185
     name: Smart Grid Attack
     description: Targeting intelligent power grid systems
     annotation: Implement grid segmentation, encryption, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t186
-    ref_id: T186
+    ref_id: BLE-T186
     name: Meter Tampering
     description: Manipulation of smart meters for fraud
     annotation: Implement tamper detection, encryption, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t187
-    ref_id: T187
+    ref_id: BLE-T187
     name: Power Generation Disruption
     description: Attacks on power generation facilities
     annotation: Implement OT security, redundancy, and incident response
   - urn: urn:intuitem:risk:threat:ble-threats:t188
-    ref_id: T188
+    ref_id: BLE-T188
     name: Connected Vehicle Attack
     description: Exploitation of vehicle communication systems
     annotation: Implement V2X security, authentication, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t189
-    ref_id: T189
+    ref_id: BLE-T189
     name: Traffic System Manipulation
     description: Compromising traffic control systems
     annotation: Implement system isolation, authentication, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t190
-    ref_id: T190
+    ref_id: BLE-T190
     name: Fleet Management Breach
     description: Unauthorized access to fleet tracking and control
     annotation: Implement access controls, encryption, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t191
-    ref_id: T191
+    ref_id: BLE-T191
     name: E-Discovery Spoliation
     description: Destruction of electronically stored information under legal hold
     annotation: Implement legal hold procedures, preservation, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t192
-    ref_id: T192
+    ref_id: BLE-T192
     name: Audit Log Manipulation
     description: Tampering with audit logs to hide compliance violations
     annotation: Implement log integrity, centralization, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t193
-    ref_id: T193
+    ref_id: BLE-T193
     name: Export Control Violation
     description: Unauthorized export of controlled technology or data
     annotation: Implement export controls, classification, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t194
-    ref_id: T194
+    ref_id: BLE-T194
     name: Mass Surveillance
     description: Large-scale monitoring of communications and activities
     annotation: Implement encryption, privacy tools, and legal protections
   - urn: urn:intuitem:risk:threat:ble-threats:t195
-    ref_id: T195
+    ref_id: BLE-T195
     name: Behavioral Tracking
     description: Unauthorized monitoring and profiling of user behavior
     annotation: Implement privacy controls, opt-out mechanisms, and transparency
   - urn: urn:intuitem:risk:threat:ble-threats:t196
-    ref_id: T196
+    ref_id: BLE-T196
     name: Location Tracking
     description: Unauthorized tracking of physical location
     annotation: Implement location controls, user consent, and anonymization
   - urn: urn:intuitem:risk:threat:ble-threats:t197
-    ref_id: T197
+    ref_id: BLE-T197
     name: Electromagnetic Pulse
     description: EMP attacks disrupting electronic systems
     annotation: Implement shielding, redundancy, and recovery planning
   - urn: urn:intuitem:risk:threat:ble-threats:t198
-    ref_id: T198
+    ref_id: BLE-T198
     name: Acoustic Cryptanalysis
     description: Extracting information from acoustic emanations
     annotation: Implement physical isolation, noise generation, and shielding
   - urn: urn:intuitem:risk:threat:ble-threats:t199
-    ref_id: T199
+    ref_id: BLE-T199
     name: Optical Emanation
     description: Information leakage through optical emissions
     annotation: Implement physical security, shielding, and monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t200
-    ref_id: T200
+    ref_id: BLE-T200
     name: Supply Chain Substitution
     description: Replacement of genuine components with compromised alternatives
     annotation: Implement verification, trusted suppliers, and testing
   - urn: urn:intuitem:risk:threat:ble-threats:t201
-    ref_id: T201
+    ref_id: BLE-T201
     name: Input Validation Bypass
     description: Lack of proper input validation allowing injection of malicious data into application fields
     annotation: Implement comprehensive input validation, whitelist acceptable inputs, use parameterized queries
   - urn: urn:intuitem:risk:threat:ble-threats:t202
-    ref_id: T202
+    ref_id: BLE-T202
     name: Buffer Overflow from Unvalidated Input
     description: Absence of input length validation causing memory corruption and potential code execution
     annotation: Enforce strict input length limits, implement boundary checking, use safe string functions
   - urn: urn:intuitem:risk:threat:ble-threats:t203
-    ref_id: T203
+    ref_id: BLE-T203
     name: Format String Vulnerability
     description: Unvalidated user input passed directly to format functions leading to information disclosure
     annotation: Never pass user input directly to format functions, validate and sanitize all inputs
   - urn: urn:intuitem:risk:threat:ble-threats:t204
-    ref_id: T204
+    ref_id: BLE-T204
     name: Command Injection via Input Fields
     description: Insufficient input sanitization allowing execution of system commands through application inputs
     annotation: Implement strict input filtering, avoid system calls with user input, use allowlists
   - urn: urn:intuitem:risk:threat:ble-threats:t205
-    ref_id: T205
+    ref_id: BLE-T205
     name: File Upload Validation Failure
     description: Inadequate validation of uploaded files allowing malware or malicious scripts
     annotation: Validate file types, scan uploads, implement size limits, store outside web root
   - urn: urn:intuitem:risk:threat:ble-threats:t206
-    ref_id: T206
+    ref_id: BLE-T206
     name: Unicode/Encoding Attack
     description: Exploitation of character encoding differences to bypass input validation
     annotation: Implement canonical form validation, consistent encoding throughout application
   - urn: urn:intuitem:risk:threat:ble-threats:t207
-    ref_id: T207
+    ref_id: BLE-T207
     name: Input Type Confusion
     description: Application fails to validate data types leading to unexpected behavior or crashes
     annotation: Enforce strict type checking, implement schema validation, handle type errors gracefully
   - urn: urn:intuitem:risk:threat:ble-threats:t208
-    ref_id: T208
+    ref_id: BLE-T208
     name: Backup Strategy Absence
     description: Complete lack of backup strategy resulting in permanent data loss during incidents
     annotation: Implement 3-2-1 backup rule, automate backups, document backup procedures
   - urn: urn:intuitem:risk:threat:ble-threats:t209
-    ref_id: T209
+    ref_id: BLE-T209
     name: Untested Backup Recovery
     description: Backup restoration procedures never tested leading to recovery failure when needed
     annotation: Regular recovery drills, documented restoration procedures, verify backup integrity
   - urn: urn:intuitem:risk:threat:ble-threats:t210
-    ref_id: T210
+    ref_id: BLE-T210
     name: Backup Retention Policy Violation
     description: Inadequate backup retention periods failing to meet business or regulatory requirements
     annotation: Define retention policies aligned with regulations, implement automated lifecycle management
   - urn: urn:intuitem:risk:threat:ble-threats:t211
-    ref_id: T211
+    ref_id: BLE-T211
     name: Unencrypted Backup Storage
     description: Backups stored without encryption exposing sensitive data if storage is compromised
     annotation: Implement backup encryption at rest and in transit, secure key management
   - urn: urn:intuitem:risk:threat:ble-threats:t212
-    ref_id: T212
+    ref_id: BLE-T212
     name: Single Point of Backup Failure
     description: All backups stored in single location vulnerable to same disaster or attack
     annotation: Implement geographically distributed backups, use multiple backup media types
   - urn: urn:intuitem:risk:threat:ble-threats:t213
-    ref_id: T213
+    ref_id: BLE-T213
     name: Backup Access Control Weakness
     description: Insufficient access controls on backup systems allowing unauthorized access or modification
     annotation: Implement role-based access, audit backup access, segregate backup infrastructure
   - urn: urn:intuitem:risk:threat:ble-threats:t214
-    ref_id: T214
+    ref_id: BLE-T214
     name: Incomplete Backup Coverage
     description: Critical systems or data not included in backup scope leading to gaps in recovery
     annotation: Comprehensive backup assessment, document all critical assets, regular coverage reviews
   - urn: urn:intuitem:risk:threat:ble-threats:t215
-    ref_id: T215
+    ref_id: BLE-T215
     name: API Key Hardcoding
     description: API keys embedded in source code exposing them to unauthorized access
     annotation: Use environment variables, secure vaults, never commit keys to repositories
   - urn: urn:intuitem:risk:threat:ble-threats:t216
-    ref_id: T216
+    ref_id: BLE-T216
     name: API Key Rotation Failure
     description: API keys never rotated allowing prolonged unauthorized access if compromised
     annotation: Implement automated key rotation, define rotation schedules, monitor key usage
   - urn: urn:intuitem:risk:threat:ble-threats:t217
-    ref_id: T217
+    ref_id: BLE-T217
     name: API Key Leakage in Logs
     description: Sensitive API keys exposed in application logs or error messages
     annotation: Implement log sanitization, mask sensitive data, secure log storage
   - urn: urn:intuitem:risk:threat:ble-threats:t218
-    ref_id: T218
+    ref_id: BLE-T218
     name: API Key Corruption
     description: API keys become corrupted or malformed causing service authentication failures
     annotation: Implement key validation, backup keys, monitoring for authentication failures
   - urn: urn:intuitem:risk:threat:ble-threats:t219
-    ref_id: T219
+    ref_id: BLE-T219
     name: Weak API Key Generation
     description: Predictable or weak API key generation allowing keys to be guessed or brute-forced
     annotation: Use cryptographically secure random generation, sufficient key length and entropy
   - urn: urn:intuitem:risk:threat:ble-threats:t220
-    ref_id: T220
+    ref_id: BLE-T220
     name: API Key Scope Creep
     description: API keys granted excessive permissions beyond required functionality
     annotation: Implement principle of least privilege, regular permission reviews, scope limitation
   - urn: urn:intuitem:risk:threat:ble-threats:t221
-    ref_id: T221
+    ref_id: BLE-T221
     name: Unmonitored API Key Usage
     description: Lack of monitoring on API key usage preventing detection of abuse or compromise
     annotation: Implement usage analytics, anomaly detection, rate limiting per key
   - urn: urn:intuitem:risk:threat:ble-threats:t222
-    ref_id: T222
+    ref_id: BLE-T222
     name: Audit Trail Absence
     description: Critical actions not logged preventing investigation and compliance verification
     annotation: Implement comprehensive logging strategy, define mandatory audit events
   - urn: urn:intuitem:risk:threat:ble-threats:t223
-    ref_id: T223
+    ref_id: BLE-T223
     name: Audit Log Tampering
     description: Audit logs can be modified or deleted destroying evidence of malicious activity
     annotation: Implement write-once storage, cryptographic signing, centralized logging
   - urn: urn:intuitem:risk:threat:ble-threats:t224
-    ref_id: T224
+    ref_id: BLE-T224
     name: Insufficient Audit Detail
     description: Audit logs lack necessary detail to reconstruct events or identify responsible parties
     annotation: Log all relevant fields, include user context, timestamp, and action details
   - urn: urn:intuitem:risk:threat:ble-threats:t225
-    ref_id: T225
+    ref_id: BLE-T225
     name: Audit Log Retention Gap
     description: Audit logs deleted before regulatory retention requirements are met
     annotation: Define retention policies per regulation, implement automated archival
   - urn: urn:intuitem:risk:threat:ble-threats:t226
-    ref_id: T226
+    ref_id: BLE-T226
     name: Unprotected Audit Trail Transmission
     description: Audit logs transmitted without encryption allowing interception and modification
     annotation: Implement TLS for log transmission, use secure protocols, verify log integrity
   - urn: urn:intuitem:risk:threat:ble-threats:t227
-    ref_id: T227
+    ref_id: BLE-T227
     name: Audit Trail Clock Synchronization Failure
     description: Inconsistent timestamps across systems preventing accurate event correlation
     annotation: Implement NTP synchronization, monitor clock drift, use centralized time source
   - urn: urn:intuitem:risk:threat:ble-threats:t228
-    ref_id: T228
+    ref_id: BLE-T228
     name: Audit Log Overflow
     description: Excessive logging causing storage exhaustion and loss of audit records
     annotation: Implement log rotation, capacity planning, archival strategies
   - urn: urn:intuitem:risk:threat:ble-threats:t229
-    ref_id: T229
+    ref_id: BLE-T229
     name: Privileged Action Audit Bypass
     description: Administrative or privileged actions not captured in audit trails
     annotation: Mandatory logging for all privileged actions, no audit bypass capabilities
   - urn: urn:intuitem:risk:threat:ble-threats:t230
-    ref_id: T230
+    ref_id: BLE-T230
     name: Inadequate Code Review Process
     description: Code reviews performed superficially missing critical security vulnerabilities
     annotation: Implement security-focused code review checklists, train reviewers, use automated tools
   - urn: urn:intuitem:risk:threat:ble-threats:t231
-    ref_id: T231
+    ref_id: BLE-T231
     name: Code Review Bypass
     description: Emergency or rushed deployments bypassing mandatory code review processes
     annotation: Enforce review gates, no exceptions policy, post-deployment reviews for emergencies
   - urn: urn:intuitem:risk:threat:ble-threats:t232
-    ref_id: T232
+    ref_id: BLE-T232
     name: Untrained Code Reviewers
     description: Reviewers lack security knowledge to identify vulnerabilities during code review
     annotation: Provide security training, establish security champions, use security-focused reviewers
   - urn: urn:intuitem:risk:threat:ble-threats:t233
-    ref_id: T233
+    ref_id: BLE-T233
     name: Automated Security Testing Gap
     description: Lack of automated security testing in code review process missing common vulnerabilities
     annotation: Integrate SAST/DAST tools, implement security unit tests, continuous security testing
   - urn: urn:intuitem:risk:threat:ble-threats:t234
-    ref_id: T234
+    ref_id: BLE-T234
     name: Third-Party Code Unreviewed
     description: Third-party libraries and dependencies not reviewed for security vulnerabilities
     annotation: Implement dependency scanning, review third-party code changes, maintain component inventory
   - urn: urn:intuitem:risk:threat:ble-threats:t235
-    ref_id: T235
+    ref_id: BLE-T235
     name: Code Review Documentation Absence
     description: Code review findings and decisions not documented preventing knowledge transfer
     annotation: Document review findings, maintain review history, track remediation actions
   - urn: urn:intuitem:risk:threat:ble-threats:t236
-    ref_id: T236
+    ref_id: BLE-T236
     name: Production Code Divergence
     description: Production code differs from reviewed version due to unauthorized changes
     annotation: Implement deployment controls, code signing, production integrity monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t237
-    ref_id: T237
+    ref_id: BLE-T237
     name: Business Continuity Plan Absence
     description: No documented business continuity plan leaving organization unprepared for disruptions
     annotation: Develop comprehensive BCP, identify critical processes, establish recovery priorities
   - urn: urn:intuitem:risk:threat:ble-threats:t238
-    ref_id: T238
+    ref_id: BLE-T238
     name: Untested Continuity Procedures
     description: Business continuity plans never tested leading to failure during actual incidents
     annotation: Regular BCP exercises, tabletop simulations, document lessons learned
   - urn: urn:intuitem:risk:threat:ble-threats:t239
-    ref_id: T239
+    ref_id: BLE-T239
     name: Critical Dependency Identification Failure
     description: Critical business dependencies not identified causing unexpected failures during disruptions
     annotation: Conduct dependency mapping, identify single points of failure, document alternatives
   - urn: urn:intuitem:risk:threat:ble-threats:t240
-    ref_id: T240
+    ref_id: BLE-T240
     name: Recovery Time Objective Violation
     description: Inability to restore services within defined RTO causing business impact
     annotation: Validate RTOs against capabilities, implement necessary redundancies, regular testing
   - urn: urn:intuitem:risk:threat:ble-threats:t241
-    ref_id: T241
+    ref_id: BLE-T241
     name: Crisis Communication Plan Gap
     description: Lack of crisis communication procedures causing confusion during incidents
     annotation: Define communication protocols, establish contact lists, prepare template communications
   - urn: urn:intuitem:risk:threat:ble-threats:t242
-    ref_id: T242
+    ref_id: BLE-T242
     name: Alternate Site Unavailability
     description: Designated alternate processing sites unavailable or inadequate when needed
     annotation: Maintain ready alternate sites, regular site validation, ensure capacity adequacy
   - urn: urn:intuitem:risk:threat:ble-threats:t243
-    ref_id: T243
+    ref_id: BLE-T243
     name: Key Personnel Single Point of Failure
     description: Critical knowledge concentrated in single individuals with no succession planning
     annotation: Document critical procedures, cross-training, maintain succession plans
   - urn: urn:intuitem:risk:threat:ble-threats:t244
-    ref_id: T244
+    ref_id: BLE-T244
     name: Supply Chain Continuity Gap
     description: Supplier disruptions not addressed in continuity planning causing operational impact
     annotation: Assess supplier risks, maintain alternate suppliers, include in BCP scope
   - urn: urn:intuitem:risk:threat:ble-threats:t245
-    ref_id: T245
+    ref_id: BLE-T245
     name: Governance Framework Absence
     description: Lack of formal governance framework leading to inconsistent security decisions
     annotation: Establish governance structure, define roles and responsibilities, document policies
   - urn: urn:intuitem:risk:threat:ble-threats:t246
-    ref_id: T246
+    ref_id: BLE-T246
     name: Policy Enforcement Failure
     description: Security policies exist but are not enforced allowing non-compliance
     annotation: Implement enforcement mechanisms, regular compliance checks, consequences for violations
   - urn: urn:intuitem:risk:threat:ble-threats:t247
-    ref_id: T247
+    ref_id: BLE-T247
     name: Risk Appetite Undefined
     description: Organization lacks defined risk appetite leading to inconsistent risk decisions
     annotation: Define risk appetite statements, communicate to stakeholders, align with business objectives
   - urn: urn:intuitem:risk:threat:ble-threats:t248
-    ref_id: T248
+    ref_id: BLE-T248
     name: Security Metrics Absence
     description: No security metrics or KPIs preventing measurement of security effectiveness
     annotation: Define meaningful metrics, implement measurement systems, regular reporting
   - urn: urn:intuitem:risk:threat:ble-threats:t249
-    ref_id: T249
+    ref_id: BLE-T249
     name: Accountability Gap
     description: Unclear ownership of security responsibilities leading to gaps in coverage
     annotation: Define clear accountability matrix, document in RACI charts, regular reviews
   - urn: urn:intuitem:risk:threat:ble-threats:t250
-    ref_id: T250
+    ref_id: BLE-T250
     name: Board Oversight Deficiency
     description: Insufficient board-level oversight of cybersecurity risks and initiatives
     annotation: Regular board reporting, cybersecurity expertise on board, risk committee establishment
   - urn: urn:intuitem:risk:threat:ble-threats:t251
-    ref_id: T251
+    ref_id: BLE-T251
     name: Policy Lifecycle Management Failure
     description: Policies become outdated and irrelevant due to lack of review and updates
     annotation: Establish review cycles, track regulatory changes, version control for policies
   - urn: urn:intuitem:risk:threat:ble-threats:t252
-    ref_id: T252
+    ref_id: BLE-T252
     name: Exception Management Weakness
     description: Uncontrolled policy exceptions creating security gaps and compliance issues
     annotation: Formal exception process, risk assessment for exceptions, time-limited approvals
   - urn: urn:intuitem:risk:threat:ble-threats:t253
-    ref_id: T253
+    ref_id: BLE-T253
     name: Third-Party Governance Gap
     description: Inadequate governance over third-party relationships exposing organization to risk
     annotation: Vendor governance program, regular assessments, contractual security requirements
   - urn: urn:intuitem:risk:threat:ble-threats:t254
-    ref_id: T254
+    ref_id: BLE-T254
     name: Multi-Tenancy Data Leakage
     description: Data isolation failure in multi-tenant SaaS environment exposing customer data
     annotation: Implement strong tenant isolation, data segregation, access controls per tenant
   - urn: urn:intuitem:risk:threat:ble-threats:t255
-    ref_id: T255
+    ref_id: BLE-T255
     name: SaaS API Rate Limit Abuse
     description: Malicious actors exhausting API rate limits causing service degradation for legitimate users
     annotation: Implement intelligent rate limiting, per-customer quotas, DDoS protection
   - urn: urn:intuitem:risk:threat:ble-threats:t256
-    ref_id: T256
+    ref_id: BLE-T256
     name: Subscription Billing Fraud
     description: Exploitation of SaaS billing systems for unauthorized service access or financial fraud
     annotation: Implement fraud detection, payment verification, usage monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t257
-    ref_id: T257
+    ref_id: BLE-T257
     name: SaaS Integration Vulnerability
     description: Insecure integrations between SaaS platform and third-party services
     annotation: Secure OAuth implementation, API security standards, integration testing
   - urn: urn:intuitem:risk:threat:ble-threats:t258
-    ref_id: T258
+    ref_id: BLE-T258
     name: Customer Data Portability Failure
     description: Inability to provide customers with their data in portable format per regulations
     annotation: Implement data export capabilities, standard formats, automated provisioning
   - urn: urn:intuitem:risk:threat:ble-threats:t259
-    ref_id: T259
+    ref_id: BLE-T259
     name: SaaS Performance Degradation
     description: Multi-tenant resource contention causing performance issues across customers
     annotation: Implement resource isolation, performance monitoring, capacity planning
   - urn: urn:intuitem:risk:threat:ble-threats:t260
-    ref_id: T260
+    ref_id: BLE-T260
     name: Freemium Abuse
     description: Abuse of free tier services for malicious purposes affecting platform reputation
     annotation: Implement abuse detection, account verification, usage limits on free tiers
   - urn: urn:intuitem:risk:threat:ble-threats:t261
-    ref_id: T261
+    ref_id: BLE-T261
     name: SaaS SSO Vulnerability
     description: Weaknesses in Single Sign-On implementation allowing unauthorized access
     annotation: Implement SAML/OAuth securely, regular security assessments, MFA requirements
   - urn: urn:intuitem:risk:threat:ble-threats:t262
-    ref_id: T262
+    ref_id: BLE-T262
     name: Customer Onboarding Security Gap
     description: Insecure customer onboarding process allowing account takeover or fraud
     annotation: Implement identity verification, secure provisioning, audit onboarding process
   - urn: urn:intuitem:risk:threat:ble-threats:t263
-    ref_id: T263
+    ref_id: BLE-T263
     name: SaaS Compliance Drift
     description: SaaS platform falling out of compliance with industry standards affecting customers
     annotation: Continuous compliance monitoring, automated checks, regular audits
   - urn: urn:intuitem:risk:threat:ble-threats:t264
-    ref_id: T264
+    ref_id: BLE-T264
     name: Elastic Resource Exploitation
     description: Attackers exploiting auto-scaling features to cause excessive resource consumption
     annotation: Implement scaling limits, cost controls, anomaly detection
   - urn: urn:intuitem:risk:threat:ble-threats:t265
-    ref_id: T265
+    ref_id: BLE-T265
     name: SaaS Metadata Exposure
     description: Sensitive metadata about customers or usage patterns exposed through APIs
     annotation: Implement data classification, API response filtering, minimal metadata exposure
   - urn: urn:intuitem:risk:threat:ble-threats:t266
-    ref_id: T266
+    ref_id: BLE-T266
     name: ISMS Scope Inadequacy
     description: ISMS scope too narrow missing critical assets and processes
     annotation: Comprehensive scope assessment, include all critical assets, regular scope reviews
   - urn: urn:intuitem:risk:threat:ble-threats:t267
-    ref_id: T267
+    ref_id: BLE-T267
     name: Risk Assessment Methodology Flaw
     description: Flawed risk assessment methodology producing inaccurate risk ratings
     annotation: Validate methodology, use established frameworks, calibrate risk scales
   - urn: urn:intuitem:risk:threat:ble-threats:t268
-    ref_id: T268
+    ref_id: BLE-T268
     name: Control Implementation Gap
     description: ISMS controls documented but not actually implemented in practice
     annotation: Implementation verification, regular control testing, evidence collection
   - urn: urn:intuitem:risk:threat:ble-threats:t269
-    ref_id: T269
+    ref_id: BLE-T269
     name: ISMS Performance Measurement Failure
     description: Lack of ISMS performance measurement preventing improvement identification
     annotation: Define ISMS metrics, implement measurement processes, management reviews
   - urn: urn:intuitem:risk:threat:ble-threats:t270
-    ref_id: T270
+    ref_id: BLE-T270
     name: Internal Audit Independence Compromise
     description: Internal auditors lack independence affecting objectivity of ISMS assessments
     annotation: Ensure auditor independence, rotate auditors, external validation
   - urn: urn:intuitem:risk:threat:ble-threats:t271
-    ref_id: T271
+    ref_id: BLE-T271
     name: Management Review Ineffectiveness
     description: Management reviews conducted superficially without meaningful outcomes
     annotation: Structured review agenda, actionable outputs, follow-up on decisions
   - urn: urn:intuitem:risk:threat:ble-threats:t272
-    ref_id: T272
+    ref_id: BLE-T272
     name: ISMS Documentation Obsolescence
     description: ISMS documentation not updated reflecting outdated practices
     annotation: Document control procedures, regular reviews, version management
   - urn: urn:intuitem:risk:threat:ble-threats:t273
-    ref_id: T273
+    ref_id: BLE-T273
     name: Corrective Action Tracking Failure
     description: Identified ISMS non-conformities not tracked to closure
     annotation: Implement CAPA system, track remediation, verify effectiveness
   - urn: urn:intuitem:risk:threat:ble-threats:t274
-    ref_id: T274
+    ref_id: BLE-T274
     name: ISMS Training Gap
     description: Personnel not adequately trained on ISMS requirements and procedures
     annotation: Comprehensive training program, role-based training, competency verification
   - urn: urn:intuitem:risk:threat:ble-threats:t275
-    ref_id: T275
+    ref_id: BLE-T275
     name: Supplier ISMS Misalignment
     description: Supplier security practices not aligned with organization's ISMS requirements
     annotation: Supplier ISMS requirements, assessments, contractual obligations
   - urn: urn:intuitem:risk:threat:ble-threats:t276
-    ref_id: T276
+    ref_id: BLE-T276
     name: ISMS Continuous Improvement Stagnation
     description: ISMS becomes static without continuous improvement initiatives
     annotation: Implement improvement processes, benchmark against best practices, innovation
   - urn: urn:intuitem:risk:threat:ble-threats:t277
-    ref_id: T277
+    ref_id: BLE-T277
     name: Context Establishment Failure
     description: ISMS context not properly established missing stakeholder requirements
     annotation: Stakeholder analysis, requirements gathering, regular context reviews
   - urn: urn:intuitem:risk:threat:ble-threats:t278
-    ref_id: T278
+    ref_id: BLE-T278
     name: ISMS Integration Failure
     description: ISMS operates in isolation from other management systems
     annotation: Integrate with quality/risk management, aligned processes, unified governance
   - urn: urn:intuitem:risk:threat:ble-threats:t279
-    ref_id: T279
+    ref_id: BLE-T279
     name: SaaS Data Residency Violation
     description: Customer data processed or stored outside agreed geographical boundaries
     annotation: Implement geo-fencing, data residency controls, transparent data location
   - urn: urn:intuitem:risk:threat:ble-threats:t280
-    ref_id: T280
+    ref_id: BLE-T280
     name: Feature Flag Misconfiguration
     description: Incorrect feature flag settings exposing beta features or causing service issues
     annotation: Feature flag governance, testing procedures, rollback capabilities
   - urn: urn:intuitem:risk:threat:ble-threats:t281
-    ref_id: T281
+    ref_id: BLE-T281
     name: SaaS Backup Customer Isolation
     description: Customer backup data not properly isolated allowing cross-tenant access
     annotation: Implement backup segmentation, encryption per tenant, access controls
   - urn: urn:intuitem:risk:threat:ble-threats:t282
-    ref_id: T282
+    ref_id: BLE-T282
     name: Webhook Security Vulnerability
     description: Insecure webhook implementations allowing data interception or replay attacks
     annotation: Implement webhook signatures, HTTPS only, replay protection
   - urn: urn:intuitem:risk:threat:ble-threats:t283
-    ref_id: T283
+    ref_id: BLE-T283
     name: SaaS Trial Account Abuse
     description: Malicious actors creating multiple trial accounts for abuse or testing attacks
     annotation: Implement trial account restrictions, verification requirements, behavior monitoring
   - urn: urn:intuitem:risk:threat:ble-threats:t284
-    ref_id: T284
+    ref_id: BLE-T284
     name: Customer Admin Privilege Escalation
     description: Customer administrators gaining access beyond their tenant boundaries
     annotation: Strict tenant boundaries, privilege isolation, audit admin actions
   - urn: urn:intuitem:risk:threat:ble-threats:t285
-    ref_id: T285
+    ref_id: BLE-T285
     name: SaaS Service Mesh Vulnerability
     description: Security weaknesses in service mesh allowing lateral movement between microservices
     annotation: Implement zero-trust service mesh, mTLS, service authentication
   - urn: urn:intuitem:risk:threat:ble-threats:t286
-    ref_id: T286
+    ref_id: BLE-T286
     name: Asset Inventory Incompleteness
     description: ISMS asset inventory missing critical information assets
     annotation: Comprehensive asset discovery, automated inventory, regular validation
   - urn: urn:intuitem:risk:threat:ble-threats:t287
-    ref_id: T287
+    ref_id: BLE-T287
     name: Risk Treatment Plan Inadequacy
     description: Risk treatment plans not effectively reducing identified risks
     annotation: Validate treatment effectiveness, monitor residual risk, adjust as needed
   - urn: urn:intuitem:risk:threat:ble-threats:t288
-    ref_id: T288
+    ref_id: BLE-T288
     name: ISMS Role Confusion
     description: Unclear ISMS roles and responsibilities causing gaps or overlaps
     annotation: Clear role definitions, RACI matrix, regular communication
   - urn: urn:intuitem:risk:threat:ble-threats:t289
-    ref_id: T289
+    ref_id: BLE-T289
     name: Evidence Collection Failure
     description: Insufficient evidence collection preventing ISMS compliance demonstration
     annotation: Define evidence requirements, automated collection where possible, retention policies
   - urn: urn:intuitem:risk:threat:ble-threats:t290
-    ref_id: T290
+    ref_id: BLE-T290
     name: ISMS Change Management Bypass
     description: Changes implemented without ISMS change management process
     annotation: Enforce change control, automated detection of unauthorized changes, regular audits
   - urn: urn:intuitem:risk:threat:ble-threats:t291
-    ref_id: T291
+    ref_id: BLE-T291
     name: Certification Scope Creep
     description: ISMS certification scope expanding without proper control assessment
     annotation: Manage scope changes, assess new areas before inclusion, update controls
   - urn: urn:intuitem:risk:threat:ble-threats:t292
-    ref_id: T292
+    ref_id: BLE-T292
     name: ISMS Metrics Manipulation
     description: Security metrics manipulated to show false compliance or performance
     annotation: Independent metric validation, automated collection, integrity controls
   - urn: urn:intuitem:risk:threat:ble-threats:t293
-    ref_id: T293
+    ref_id: BLE-T293
     name: Interested Party Requirements Gap
     description: ISMS fails to address all interested party requirements
     annotation: Stakeholder mapping, requirement tracking, regular engagement
   - urn: urn:intuitem:risk:threat:ble-threats:t294
-    ref_id: T294
+    ref_id: BLE-T294
     name: ISMS Communication Breakdown
     description: Poor communication of ISMS requirements leading to non-compliance
     annotation: Communication plan, multiple channels, feedback mechanisms
   - urn: urn:intuitem:risk:threat:ble-threats:t295
-    ref_id: T295
+    ref_id: BLE-T295
     name: Control Effectiveness Measurement Gap
     description: Controls implemented but effectiveness not measured or verified
     annotation: Define effectiveness criteria, regular testing, performance indicators
   - urn: urn:intuitem:risk:threat:ble-threats:t296
-    ref_id: T296
+    ref_id: BLE-T296
     name: Security Budget Inadequacy
     description: Insufficient security budget preventing implementation of necessary controls
     annotation: Risk-based budgeting, business case development, demonstrate ROI
   - urn: urn:intuitem:risk:threat:ble-threats:t297
-    ref_id: T297
+    ref_id: BLE-T297
     name: Security Culture Deficiency
     description: Weak security culture leading to poor security practices organization-wide
     annotation: Security awareness programs, leadership commitment, reward secure behaviors
   - urn: urn:intuitem:risk:threat:ble-threats:t298
-    ref_id: T298
+    ref_id: BLE-T298
     name: Merger and Acquisition Security Gap
     description: Security risks introduced through M&A activities not properly assessed
     annotation: M&A security due diligence, integration planning, risk assessment
   - urn: urn:intuitem:risk:threat:ble-threats:t299
-    ref_id: T299
+    ref_id: BLE-T299
     name: Legacy System Security Debt
     description: Accumulated security vulnerabilities in legacy systems creating increasing risk
     annotation: Legacy system inventory, risk assessment, modernization planning
   - urn: urn:intuitem:risk:threat:ble-threats:t300
-    ref_id: T300
+    ref_id: BLE-T300
     name: Security Tool Sprawl
     description: Proliferation of security tools without integration causing gaps and inefficiencies
     annotation: Tool rationalization, integration strategy, centralized management
